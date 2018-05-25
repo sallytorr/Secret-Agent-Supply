@@ -125,6 +125,17 @@ nav .container {
   justify-content: center;
 }
 
+.glassesimg {
+  height: 13.2rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glassesimg img {
+  max-width: 9rem;
+}
+
 .items p {
   background-color: black;
   color: white;
