@@ -146,19 +146,18 @@ nav .container {
 
 /*contact*/
 
-.container .contact {
-  width: 960px;
-  margin: 3rem auto 4rem auto;
-  display: flex;
-}
-
 .contact {
   position: relative;
   top: 3rem;
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
-  width: 35%;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 3rem auto 4rem auto;
+}
 
+.hours .location {
+  width: 35%;
 }
 
 h5 {
@@ -190,3 +189,18 @@ h5 {
 }
 
 /*media queries*/
+
+@@media only screen and (max-width: 1024px) {
+
+  .items {
+    width: 47%;
+  }
+
+}
+
+@@media only screen and (max-width: 470px) {
+
+  .copyright {
+    text-align: left;
+  }
+}
